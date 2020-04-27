@@ -1,0 +1,53 @@
+
+# Site settings
+title: S.Y.Xu
+name: S.Y.Xu
+subtitle: Physics Olympiad Student
+email: xushuyao@xsy.science
+description: >
+  Physics Olympiad Student
+baseurl: ""
+url: "https://Tim-Siu.github.io/"
+github_username:  Tim-Siu
+disqus_baseurl: "https://Tim-Siu.github.io/"
+disqus_shortname: https-Tim-Siu-github-io
+permalink: :title
+google-site-verification: "EBNpnv4GiHJTmePgRajamxrYtJnc6WlqDyWUITDaSMo"
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "S.Y.Xu"
+
+
+
+# External gems
+gems:
+  - jekyll-paginate
+  - jemoji
+  - jekyll-seo-tag
+
+
+
+social:
+  - name: GitHub
+    icon: github
+    username: Tim-Siu
+    url: https://github.com/Tim-Siu    
+    desc: Fork me on GitHub
+    share: false
+
+  - name: LinkedIn
+    icon: linkedin
+    username: 
+    url: 
+    desc: Connect with me on LinkedIn
+    share: true
